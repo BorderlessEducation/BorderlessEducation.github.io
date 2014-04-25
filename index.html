@@ -4,10 +4,19 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<meta name="description" content="Borderless Education home page">
+	<meta name="author" content="CTE">
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- Favicon -->
+	<link rel="icon" 
+		type="image/png" 
+		href="img/favicon.ico">
+	<title>Borderless Education</title>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,11 +26,107 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
+	
+	<div class="be-wrapper">
+		<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html#home">
+						<img height="24px" src="img/be_logo_oneline.png" alt="Borderless Education"/>
+					</a>
+				</div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+				<nav class="navbar-collapse collapse" role="navigation">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="index.html#workshops">Workshops</a>
+						</li>
+						<li>
+							<a href="index.html#about">About</a>
+						</li>
+						<li>
+							<a href="index.html#contactus">Contact Us</a>
+							<li class="be-nav-social-media">
+								<a target="_blank" href="http://facebook.com/borderlesseducation">
+									<img class="be-nav-social-media-icon" src="img/fb.png"/>
+								</a>
+							</li>
+						</ul>
+					</nav>
+			</div>
+		</div>
+		<div class="be-content">
+			<section id="home" class="jumbotron">
+				<div class="container">
+					<img class="logo img-responsive" src="img/be_logo_main.png" height="100px" alt="Borderless Education logo"/>
+				</div>
+			</section>			
+			
+			<section id="events" class="be-section be-highlight-section">
+				<div class="container">
+					<h2>Workshops</h2>
+					<p>
+						If you'd like to attend any of them, please check the workshop descriptions for registration details. Want latest updates on our workshop/events? Sign up for our <a href="#mc_embed_signup">mailing list</a>.
+					</p>
+				</div>
+			</section>
+			<section id="contactus" class="be-section">
+				<div class="container">
+					<h2>Contact Us</h2>
+					<p> Sign up for our mailing list to receive latest updates on our workshops/events! </p>
+					<p>
+						Questions about Borderless Education? Want to find out more about our workshops or what we do? Feel free to reach out to us via the following means:
+						<ul class="be-contact-list row">
+							<li class="col-sm-6 col-md-4 ce-contact-list-item">
+							<img class="be-contact-icon" src="img/email.png"/>
+							<a target="_blank" href="mailto:codeequality@gmail.com">Email info@borderless.my</a>
+							</li>
+							<li class="col-sm-6 col-md-4 ce-contact-list-item">
+								<img class="be-contact-icon" src="img/fb.png"/>
+								<a target="_blank" href="http://facebook.com/borderlesseducation">Borderless Education on Facebook</a>
+							</li>
+						</ul>
+					</p>
+					<div id="mc_embed_signup">
+						<form action="http://www.us8.list-manage.com/subscribe/post?u=f61b56a32629c55e4b139590f&amp;id=0a072589eb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+						
+							<h2>Subscribe to our mailing list</h2>
+							<div class="indicates-required"></div>
+							<div class="form-group mc-field-group">
+								<label for="mce-EMAIL">Email Address</label>
+								<input type="email" value="" name="EMAIL" class=" form-control required email" id="mce-EMAIL">
+							</div>
+							<div id="mce-responses" class="clear">
+								<div class="response" id="mce-error-response" style="display:none"></div>
+								<div class="response" id="mce-success-response" style="display:none"></div>
+							</div>
+							<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+							<div style="position: absolute; left: -5000px;"><input type="text" name="b_f61b56a32629c55e4b139590f_0a072589eb" value=""></div>
+							<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+													
+						</form>
+					</div>
+				</div>
+			</section>
+		</div>
+		 <footer>
+			<div class="container">
+				<p>&copy; Borderless Education 2013-14</p>
+				<p>
+					Is something broken on this website? If so, contact the <a href="mailto:chunte@gmail.com">webmaster</a> and they'll get on it. If you were wondering, yes, this site was built with <a href="http://getbootstrap.com">Bootstrap</a> and <a href="http://jekyllrb.com">Jekyll</a>.
+				</p>
+			</div>
+		</footer>
+	</div>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>
+
 </html>

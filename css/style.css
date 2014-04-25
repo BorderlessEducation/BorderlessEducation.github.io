@@ -1,0 +1,230 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab:400,700);
+
+body {
+  padding-top: 50px;
+  font-family: 'Open Sans', 'sans-serif';
+  height: 100%; }
+
+h1, h2, h3, h4 {
+  font-family: 'Roboto Slab', 'serif';
+  font-weight: 700; }
+
+h4 {
+  font-weight: 400; }
+
+h3 {
+  color: #555555; }
+
+footer {
+  background-color: #555555;
+  color: #999999;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 0.9em;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 100px; }
+
+.jumbotron {
+  margin-bottom: 0;
+  padding-top: 62px;
+  background-color: #ffffff;
+  font-family: "Lora", sans-serif;
+  color: #111111; }
+
+.be-nav-social-media a {
+  padding: 13px !important;
+  padding-right: 0 !important; }
+.be-nav-social-media .be-nav-social-media-icon {
+  width: 28px; }
+
+.be-wrapper {
+  min-height: 100%;
+  position: relative; } 
+  
+.be-content {
+  padding-bottom: 100px; }
+  
+.be-section {
+  padding-top: 54px;
+  padding-bottom: 50px;
+  border-top: 1px solid #cccccc;
+  background-color: white; }  
+.be-highlight-section {
+  background-color: #f07f09;
+  color: white; }
+  .be-highlight-section > div > p > a {
+    color: white;
+    text-decoration: underline; }
+ 
+ .be-contact-list {
+  list-style: none;
+  padding: 0px; }
+  .be-contact-list .be-contact-list-item {
+    line-height: 28px;
+    margin: 12px auto; }
+
+.be-contact-icon {
+  width: 28px;
+  margin-right: 6px;
+  font-size: 28px;
+  color: #f25405; }
+  
+  
+  
+.ce-thumbnail {
+  display: block;
+  overflow: hidden;
+  padding: 15px 15px 15px 0;
+  display: table; }
+  .ce-thumbnail .ce-thumbnail-image {
+    position: relative;
+    overflow: hidden;
+    width: 170px;
+    height: 170px; }
+  .ce-thumbnail .ce-thumbnail-helper {
+    display: table-cell;
+    height: 170px;
+    vertical-align: middle; }
+  .ce-thumbnail img {
+    vertical-align: middle;
+    max-width: 170px; }
+
+
+
+.ce-feature-icons .ce-feature-icon {
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 12px; }
+  .ce-feature-icons .ce-feature-icon .img-responsive {
+    margin: 0 auto; }
+
+.ce-secondary-text {
+  font-style: italic; }
+
+
+.ce-event-card {
+  border: 1px solid #eeeeee;
+  border-bottom: 3px solid #cccccc;
+  background-color: white;
+  color: #888888;
+  padding: 0 15px;
+  margin-bottom: 30px;
+  min-height: 260px;
+  display: table; }
+  .ce-event-card h3 a {
+    color: #333333; }
+  .ce-event-card .ce-event, .ce-event-card .ce-thumbnail {
+    display: table-cell;
+    vertical-align: top; }
+  .ce-event-card table.ce-event-logistics {
+    font-weight: 700; }
+    .ce-event-card table.ce-event-logistics tr td {
+      padding: 0 6px;
+      border-right: 1px solid #dddddd; }
+      .ce-event-card table.ce-event-logistics tr td:first-child {
+        padding-left: 0; }
+      .ce-event-card table.ce-event-logistics tr td:last-child {
+        border-right: 0px solid #dddddd; }
+
+.ce-thumb-label {
+  width: 170px;
+  display: block;
+  background-color: #f25405;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0; }
+
+.ce-event-logistics {
+  font-weight: 700;
+  color: #888888; }
+  .ce-event-logistics tr td {
+    padding: 0 6px;
+    border-right: 1px solid #dddddd; }
+    .ce-event-logistics tr td:first-child {
+      padding-left: 0; }
+    .ce-event-logistics tr td:last-child {
+      border-right: 0px solid #dddddd; }
+
+.ce-event-header .ce-event-logistics {
+  color: #f25405; }
+  .ce-event-header .ce-event-logistics tr td {
+    padding: 0 6px;
+    border-right: 1px solid #f25405; }
+    .ce-event-header .ce-event-logistics tr td:first-child {
+      padding-left: 0; }
+    .ce-event-header .ce-event-logistics tr td:last-child {
+      border-right: 0px solid #dddddd; }
+
+.ce-contact-list {
+  list-style: none;
+  padding: 0px; }
+  .ce-contact-list .ce-contact-list-item {
+    line-height: 28px;
+    margin: 12px auto; }
+
+.ce-contact-icon {
+  width: 28px;
+  margin-right: 6px;
+  font-size: 28px;
+  color: #f25405; }
+
+.strong {
+  font-weight: 700; }
+
+.navbar-nav > li > a {
+  padding: 17px; }
+
+.active {
+  border-bottom: 4px solid #f25405;
+  color: #f25405 !important; }
+
+.ce-event-header {
+  margin-bottom: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #eeeeee; }
+
+.ce-event-date-posted {
+  color: #555555;
+  font-style: italic;
+  background-color: #eeeeee;
+  padding: 4px;
+  float: right; }
+
+.ce-event-description {
+  font-size: 18px;
+  font-family: "Arvo", sans-serif; }
+
+.ce-event-header-image {
+  float: left;
+  max-width: 250px;
+  margin-right: 24px; }
+
+
+
+.ce-event-details {
+  padding-bottom: 60px; }
+  .ce-event-details h2 {
+    color: #777777;
+    margin-top: 36px; }
+  .ce-event-details .ce-event-details-footer {
+    margin-top: 60px; }
+
+.ce-event-details-table {
+  margin: 24px auto; }
+  .ce-event-details-table tr td {
+    padding: 12px; }
+  .ce-event-details-table tr td:first-child {
+    font-weight: bold; }
+
+.large {
+  font-size: 1.5em; }
+
+.clearfix {
+  height: 15px; }
